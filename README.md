@@ -1,16 +1,19 @@
-# React + Vite
+# 📝 To-Do List em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este é um projeto prático de uma Lista de Tarefas (To-Do List) desenvolvido em **React JS**.
+## 🚀 Funcionalidades
 
-Currently, two official plugins are available:
+O sistema conta com as seguintes funcionalidades:
+- **Criar Tarefas:** Adicionar novas tarefas informando o título e selecionando uma categoria (Ex: Trabalho, Pessoal, Estudos).
+- **Completar Tarefas:** Marcar tarefas como concluídas (o texto fica riscado) ou desmarcá-las.
+- **Excluir Tarefas:** Remover tarefas indesejadas da lista.
+- **Pesquisar:** Barra de pesquisa que filtra as tarefas em tempo real pelo título.
+- **Filtrar por Status:** Exibir "Todas" as tarefas, apenas as "Completas" ou apenas as "Incompletas".
+- **Ordenação Alfabética:** Ordenar a lista de tarefas de forma Ascendente (A-Z) ou Descendente (Z-A).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologias Utilizadas
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React JS** (Criado com Vite)
+- **JavaScript (ES6+)**
+- **CSS3** (Estilização com CSS puro)
+- **HTML5 / JSX**
